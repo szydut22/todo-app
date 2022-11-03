@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Task = ({ task, onCheckboxClick, onDeleteClick }) => {
-    console.log({task});
   return (
     <li>
       <input

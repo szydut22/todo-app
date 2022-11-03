@@ -7,6 +7,8 @@ export const TaskForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
+    console.log(e);
+
     if (!text) return;
 
     TasksCollection.insert({
